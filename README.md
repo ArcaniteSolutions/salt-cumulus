@@ -1,6 +1,6 @@
 # salt-cumulus
 
-Salt-cumulus is a small salt state, providing a easy way to configure the configuration of a cumulus switch.
+Salt-cumulus is a small salt state, providing an easy way to configure the configuration of a cumulus switch.
 
 It provides a simple interface to apply `net` commands from a template.
 
