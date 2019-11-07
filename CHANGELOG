@@ -1,3 +1,8 @@
+# 0.0.2
+
+* Display output of net commit in comments
+* `commit` is not executed anymore if there is no pending changes
+
 # 0.0.1
 
-Initial release
+* Initial release

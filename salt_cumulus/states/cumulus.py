@@ -74,7 +74,11 @@ def managed(name,
         ret['comment'] = 'Changes have not been commited'
 
     else:
-        net.commit()
+
+        if changes.get('diffs'):
+            ret['comment'] = str(net.commit())
+        else:
+            net.abort()
 
     salt.utils.files.remove(sfn)
 
