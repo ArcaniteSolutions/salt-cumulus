@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="salt-cumulus",
-    version="0.0.2",
+    version="0.0.3",
     description="Small salt module providing cumulus.managed, to apply basic config on cumulus switches",
     author="Maximilien Cuony",
     author_email="maximilien.cuony@arcanite.ch",

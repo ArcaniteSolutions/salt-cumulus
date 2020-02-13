@@ -45,7 +45,7 @@ def managed(name,
         for line in commands.readlines():
             line = line.strip()
 
-            if line.startswith('net add ') or line.startswith('net del '):
+            if line.startswith(b'net add ') or line.startswith(b'net del '):
                 try:
                     net(*line[4:].split(' '))
                 except Exception as e:
